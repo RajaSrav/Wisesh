@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <header>
+      <h1 id="head">ఉగాది</h1>
+      <marquee behavior="scroll" direction="right"><h3>ఉగాది శుభకాక్షల </h3></marquee>
+    </header>
+    <title>Resumes</title>
+
+  </head>
+  <body>
+    <style style="text/css">
+    .scroll-down {
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+    }
+    .scroll-down h5 {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     line-height: 100%;
+     font-size: 33px;
+     color: #8eeee0;
+     text-align: center;
+     /* Apply animation to this element */
+     -moz-animation: scroll-down 10s linear infinite;
+     -webkit-animation: scroll-down 10s linear infinite;
+     animation: scroll-down 10s linear infinite;
+    }
+    /* Move it (define the animation) */
+    @-webkit-keyframes scroll-down {
+     0%   { -webkit-transform: translateY(-100%); }
+     100% { -webkit-transform: translateY(100%); }
+    }
+    </style>
+  <div class="scroll-down" id="flex">
+<h5>ఉగాది శుభకాక్ష </h5>
+
+    </div>
+  <script src="script.js" async>  </script>
+  <!-- <script>
+      // Let's register our serviceworker
+      navigator.serviceWorker.register('serviceworker.js', {
+        // The scope cannot be parent to the script url
+        scope: './'
+      });
+    </script> -->
+  </body>
+</html>

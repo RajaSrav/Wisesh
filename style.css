@@ -1,0 +1,128 @@
+.flex{
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+}
+.cardview {
+  box-shadow: 5px 4px 8px 5px rgba(0,0,0,0.2);
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border: 10px inset #1C6EA4;
+  background-color: #F4A460;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    /* border: 10px dashed #1C6EA4; */
+    list-style: none;
+    text-align: center;
+}
+.cardview:hover {
+  box-shadow: 10px 5px 5px 10px #3234;
+}
+marquee{
+  color: #2df000;
+  scroll-behavior: smooth;
+  font-size: 30px;
+}
+img {
+    border-radius: 33px;
+    width: 150px;
+    height: 150px;
+    border: 10px outset #1C6EA4;
+}
+h3{
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+}
+.container {
+    padding: 2px 16px;
+}
+html{
+  background-color: #999;
+}
+#head{
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px;
+}
+button {
+  padding: 8px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+}
+@media only screen and (max-width: 1024px) {
+  .cardview {
+    margin-top: 5%;
+
+  }
+  marquee{
+    color: #2df000;
+    scroll-behavior: smooth;
+    font-size: 40px;
+  }
+  .container h3{
+    font-size: 25px;
+  }
+  .container button{
+    background-color: #c45E45;
+    font-size: 25px;
+  }
+  #head{
+    background-color:#c45e45;
+    font-size: 55px;
+  }
+  #new{
+  background-color: #c45e45;
+  font-size: 35px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .flex{
+    flex-wrap:wrap;
+  }
+  marquee{
+    color: #2df000;
+    scroll-behavior: smooth;
+    font-size: 30px;
+  }
+  .cardview {
+    width: auto;
+    background-color: #2df000;
+  }
+  #head{
+    font-size: 43px;
+  }
+
+}
+@media only screen and (max-width:425px) {
+  .flex{
+   flex-wrap: wrap;
+ }
+ .cardview {
+   display: flex;
+   /* flex-wrap: wrap; */
+   background-color: #90EE90;
+   font-family: verdana;
+   border-radius: 30px;
+   margin: 1em;
+   color: #f00;
+ }
+ .cardview img{
+   border-radius: 2em;
+   width: 45px;
+ }
+  button{
+    width: 133px;
+  }
+ #head{
+   font-size: 3em;
+     background-color: #c45e45;
+ }
+
+}
